@@ -1,0 +1,13 @@
+# Compiled binary
+zap
+
+# Object files (we'll have these later)
+*.o
+
+# Editor/OS junk
+.vscode/
+.idea/
+.DS_Store
+
+# Debug output
+*.dSYM/
