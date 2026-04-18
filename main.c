@@ -8,6 +8,7 @@ int main () {
     long num; 
     
     while (fgets(buffer, sizeof buffer, stdin) != NULL) {
+        errno = 0;
         num = strtol(buffer, &endptr, 10);
         if (buffer == endptr) {
             printf("no digits were found.\n");
